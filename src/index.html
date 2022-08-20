@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -19,54 +21,69 @@
         </nav>
     </header>
     <div class="mein">
-        <h1>Привет <br> я хабибуллин самат</h1>\
-        <h4>Пока никто</h4>
-        <input type="submit" value="Обо мне">
-        <input type="submit" value="Мои работы">
+        <div class="information">
+            <h1>Привет <br> я хабибуллин самат</h1>
+            <h4>Будущий мега крутой frontend и backend разработчик</h4>
+            <input class="input_me" type="submit" value="Обо мне">
+            <input class="input_me" type="submit" value="Мои работы">
+        </div>
     </div>
     <div class="about_me">
         <h2>Обо мне</h2>
-        <img src="" alt="Личное фото">
-        <div class="information">Какая-то информация</div>
+        <div class="line"></div>
+        <img src="img/person2.png" alt="Личное фото">
+        <p class="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias voluptatibus quas ducimus hic, tenetur harum sapiente. Maxime officia, esse aliquid.</p>
+        <p class="secondText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus modi commodi ea vel necessitatibus maiores nemo quis tempore velit consequatur.</p>
         <input type="submit" value="Скачать резюме">
     </div>
     <div class="skills">
         <h2>Что я умею</h2>
-        <div class="skills_list">
-            <img src="" alt="">
-            <div class="skills_h">Веб-дизайн</div>
-            <div class="description"></div>
-        </div>
-        <div class="skills_list">
-            <img src="" alt="">
-            <div class="skills_h">Разработка</div>
-            <div class="description_skills"></div>
-        </div>
-        <div class="skills_list">
-            <img src="" alt="">
-            <div class="skills_h">СЕО-Оптимизация</div>
-            <div class="description_skills"></div>
-        </div>
-        <div class="skills_list">
-            <img src="" alt="">
-            <div class="skills_h">Маркетинг</div>
-            <div class="description_skills"></div>
+        <div class="line"></div>
+        <div class="centr_skills">
+            <div class="skills_list">
+                <img src="img/icon1.png" alt="">
+                <div class="skills_h">Веб-дизайн</div>
+                <div class="description_skills">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</div>
+            </div>
+            <div class="skills_list">
+                <img src="img/icon2.png" alt="">
+                <div class="skills_h">Разработка</div>
+                <div class="description_skills">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</div>
+            </div>
+            <div class="skills_list">
+                <img src="img/icon3.png" alt="">
+                <div class="skills_h">СЕО-Оптимизация</div>
+                <div class="description_skills">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</div>
+            </div>
+            <div class="skills_list">
+                <img src="img/icon4.png" alt="">
+                <div class="skills_h">Маркетинг</div>
+                <div class="description_skills">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, vel.</div>
+            </div>
         </div>
     </div>
     <div class="cases">
         <h2>кейсы</h2>
-        <div class="description_cases">Короткое описание</div>
+        <div class="line"></div>
+        <div class="description_cases">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, voluptatum!</div>
         <div class="slides">
-            <img src="" alt="">
+            <img src="img/photo1.png" alt="">
         </div>
-        <div class="client_site">
-            <div class="client">
-                <h3>Клиент:</h3>
-                <div class="name_client">Какая-то компания</div>
+        <div class="obsh">
+            <div class="client_site">
+                <div class="client">
+                    <h3>Client:</h3>
+                    <div class="name_client">Какая-то компания</div>
+                </div>
+                <div class="site">
+                    <h3>Website:</h3>
+                    <div class="name_site">https://somedomain.ru</div>
+                </div>
+                <input type="submit" value="Visit Live Site">
             </div>
-            <div class="site">
-                <h3>Вебсайт:</h3>
-                <div class="name_site">Ссылка</div>
+            <div class="description_right">
+                    <h4>Название проекта</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum blanditiis, debitis a ipsa fugit ad architecto adipisci obcaecati. Quos magnam, hic vero omnis numquam tempore laborum, similique tempora consequatur debitis a iure eaque. Vel cupiditate, maxime! Nemo adipisci quia velit.</p>
             </div>
         </div>
     </div>
@@ -75,96 +92,119 @@
         <div class="calculator_element">
             <div>Тип сайта</div>
             <select name="" id="">
-                
+                <option value="1" selected disabled>Выберите пункт</option>
+                <option value="2">Сайт-визитка</option>
+                <option value="3">Корпоративный сайт</option>
+                <option value="4">Интернет-магазин</option>
             </select>
         </div>
         <div class="calculator_element">
-            <div>Тип сайта</div>
+            <div>Дизайн</div>
             <select name="" id="">
-                
+                <option value="1" selected disabled>Выберите пункт</option>
+                <option value="2">Шаблонный</option>
+                <option value="3">Уникальный</option>
+                <option value="4">WOW-Дизайн</option>
             </select>
         </div>
         <div class="calculator_element">
-            <div>Тип сайта</div>
+            <div>Адаптивность</div>
             <select name="" id="">
-                
+                <option value="1" selected disabled>Выберите пункт</option>
+                <option value="2">Только ПК</option>
+                <option value="3">Только мобильный сайт</option>
+                <option value="4">ПК + Мобильный</option>
             </select>
         </div>
+        <hr>
         <div class="deadlines">
-            <div>Сроки</div>
-            <div>0</div>
+            <div class="srock">Сроки</div>
+            <div class="calc">0</div>
         </div>
         <div class="cost">
             <div>Стоимость</div>
-            <div>0</div>
+            <div class="calc">0</div>
         </div>
     </div>
     <div class="statistics">
         <h2>немного статистики</h2>
-        <div class="statistics_list">
-            <img src="" alt="">
-            <div class="statistics_number">120</div>
-            <div class="statictics_name">счастливых клиентов</div>
-        </div>
-        <div class="statistics_list">
-            <img src="" alt="">
-            <div class="statistics_number">4600</div>
-            <div class="statictics_name">часов работы</div>
-        </div>
-        <div class="statistics_list">
-            <img src="" alt="">
-            <div class="statistics_number">340</div>
-            <div class="statictics_name">проектов завершено</div>
-        </div>
-        <div class="statistics_list">
-            <img src="" alt="">
-            <div class="statistics_number">23</div>
-            <div class="statictics_name">наград получено</div>
+        <div class="line"></div>
+        <div class="centr_skills">
+            <div class="statistics_list">
+                <img src="img/icon14.png" alt="">
+                <div class="statistics_number">120</div>
+                <div class="statictics_name">счастливых клиентов</div>
+            </div>
+            <div class="statistics_list">
+                <img src="img/icon13.png" alt="">
+                <div class="statistics_number">4600</div>
+                <div class="statictics_name">часов работы</div>
+            </div>
+            <div class="statistics_list">
+                <img src="img/icon12.png" alt="">
+                <div class="statistics_number">340</div>
+                <div class="statictics_name">проектов завершено</div>
+            </div>
+            <div class="statistics_list">
+                <img src="img/icon11.png" alt="">
+                <div class="statistics_number">23</div>
+                <div class="statictics_name">наград получено</div>
+            </div>
         </div>
     </div>
     <div class="reviews">
         <h2>Отзывы</h2>
-        <img src="" alt="">
-        <div class="reviews_description">Какой-то отзыв</div>
-        <div class="name_reviews">Михаил, Гендиретор ПАО 'Гаспром'</div>
+        <div class="line"></div>
+        <img src="img/person3.png" alt="">
+        <div class="reviews_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam cum totam saepe laborum quae tenetur blanditiis laboriosam asperiores repellat quas!</div>
+        <div class="name_reviews"><b>Михаил</b>, Гендиретор ПАО 'Гаспром'</div>
+        <img src="img/points.png" alt="">
     </div>
     <div class="my_contact">
         <h2>Мои контакты</h2>
-        <div class="contact_description">Какой-то текст</div>
-        <div class="contact">
-            <a href="">
-                <img src="" alt="">
-                <div>Санкт-Пектербург <br> Невский проспект 11</div>
-            </a>
+        <div class="line"></div>
+        <div class="contact_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, voluptatum!</div>
+        <div class="centr_skills">
+           <div class="reset">
+            <div class="contact">
+                <a href="">
+                    <img src="img/topIcon1.png" alt="">
+                    <div>Санкт-Пектербург <br> Невский проспект 11</div>
+                </a>
+            </div>
+            <div class="contact">
+                <a href="">
+                    <img src="img/topIcon2.png" alt="">
+                    <div>ссылка почта</div>
+                </a>
+            </div>
+            <div class="contact">
+                <a href="">
+                    <img src="img/topIcon3.png" alt="">
+                    <div>8 800 555 35 35</div>
+                </a>
+            </div>
+            </div>
         </div>
-        <div class="contact">
-            <a href="">
-                <img src="" alt="">
-                <div>ссылка почта</div>
-            </a>
-        </div>
-        <div class="contact">
-            <a href="">
-                <img src="" alt="">
-                <div>8 800 555 35 35</div>
-            </a>
-        </div>
-        <h3>Оставьте мне сообщение</h3>
-        <input type="text" placeholder="Имя">
-        <input type="text" placeholder="Email">
-        <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
-        <input type="submit" value="Отправить">
-        <div class="links">
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
+        <div class="presf">
+            <h3>Оставьте мне сообщение</h3>
+            <div class="topText">
+                <input class="topTextInput1" type="text" placeholder="Имя">
+                <input class="topTextInput2" type="text" placeholder="Email">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+            <input class="send" type="submit" value="Отправить">
+            <div class="links">
+                <a href=""><img src="img/bottomIcon1.png" alt=""></a>
+                <a href=""><img src="img/bottomIcon2.png" alt=""></a>
+                <a href=""><img src="img/bottomIcon3.png" alt=""></a>
+                <a href=""><img src="img/bottomIcon4.png" alt=""></a>
+                <a href=""><img src="img/bottomIcon5.png" alt=""></a>
+                <a href=""><img src="img/bottomIcon6.png" alt=""></a>
+            </div>
         </div>
     </div>
     <div class="maps">
-        
     </div>
     <footer>
         <div>Сделано2022СаматХабибуллинWed</div>

@@ -1,0 +1,429 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    width: auto;
+    height: 60px;
+    background-color: #344051;
+}
+
+.logo {
+    float: left;
+    color: #fff;
+    font-size: 17px;
+    line-height: 60px;
+    padding-left: 250px;
+}
+
+.menu {
+    float: left;
+    padding-left: 360px;
+    line-height: 60px;
+}
+
+.menu li {
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    padding-right: 20px;
+}
+
+.menu li a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.mein {
+    background: url(../img/person.png) 90% 100%/auto 85% no-repeat, url(../img/fon1.png) center/cover no-repeat;
+    width: auto;
+    height: calc(100% - 60px);
+}
+
+.mein .information{
+    float: left;
+    margin: 300px 0 0 250px;
+    text-align: center;
+}
+
+.mein .information h1{
+    font-size: 50px;
+    font-weight: bold; 
+    text-transform: capitalize;
+}
+
+.information h4 {
+    color: #79818d;
+    margin-top: 35px;
+    margin-bottom: 55px;
+}
+
+.information .input_me {
+    border: 2px solid #6d7682;
+    border-radius: 5px;
+    background: transparent;
+    margin-left: 30px;
+    color: #79818d;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #263244;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 110px;
+    text-transform: uppercase;
+}
+
+.about_me {
+    width: auto;
+    height: 700px;
+}
+
+.line {
+    background-color: #d17700;
+    border: 1px solid #d17700;
+    width: 60px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+}
+
+.about_me img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+.about_me p {
+    margin: 0 auto;
+    margin-top: 45px;
+    display: block;
+    text-align: left;
+    width: 600px;
+    line-height: 20px;
+}
+
+.about_me .first {
+    margin-top: 30px;
+}
+
+.about_me input {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #6d7682;
+    border-radius: 5px;
+    background: transparent;
+    color: #79818d;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+    padding-left: 20px;
+    background: url(../img/icon.png) 1% 45% no-repeat;
+}
+
+.skills {
+    background: url(../img/fon2.png) no-repeat;
+    width: auto;
+    height: 520px;
+}
+
+.statistics {
+    background: url(../img/fon3.png) no-repeat;
+    width: auto;
+    height: 520px;
+}
+
+.reset {
+    padding-left: 16%;
+    overflow: auto;
+}
+
+.skills_list, .statistics_list, .contact {
+    float: left;
+    width: 20%;
+    margin-top: 105px;
+}
+
+.skills_list img, .statistics_list img, .contact img {
+    display: block;
+    margin: 0 auto;
+}
+.centr_skills {
+    margin-left: 15%;
+}
+
+.skills_h {
+    text-align: center;
+    margin: 0 auto;
+    color: #d49051;
+    margin-top: 30px;
+    font-size: 19px;
+}
+
+.description_skills {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 14px;
+    width: 200px;
+    line-height: 20px;
+}
+
+.description_cases, .contact_description {
+    text-align: center;
+    margin-top: 40px;
+}
+.slides {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.obsh {
+    width: 1169px;
+    margin: 0 auto;
+}
+
+.client_site {
+    width: 200px;
+    float: left;
+}
+
+.description_right {
+    width: 869px;
+    float: left;
+}
+
+.client_site h3 {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+
+.name_client, .name_site {
+    font-size: 17px;
+    margin-top: 13px;
+}
+
+.site {
+    margin-top: 20px;
+}
+
+.client_site input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #63b5ae;
+    color: #f6fafa;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.cases {
+    width: auto;
+    height: 1100px;
+}
+
+.description_right h4 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.description_right {
+    margin-left: 100px;
+}
+
+.description_right p {
+    line-height: 25px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.calculator_element {
+    margin: 0 auto;
+    width: 890px;
+    margin-top: 50px;
+}
+
+.calculator_element select {
+    background-color: #eeeeee; 
+    width: 890px;
+    height: 57px;
+    margin-top: 16px;
+}
+
+.calculator_element div {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 890px;
+    height: 2px;
+    background-color: #d1d1d1;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.deadlines , .cost{
+    font-size: 18px;
+    font-weight: bold;
+    width: 890px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.srock {
+    float: left;
+} 
+
+.calc {
+    text-align: right;
+}
+
+.calculator {
+    width: auto;
+    height: 780px;
+}
+
+.statistics_number {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.statictics_name {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.reviews {
+    width: auto;
+    height: 590px;
+}
+
+.reviews img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.reviews_description, .name_reviews {
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 35px;
+    line-height: 20px;
+}
+
+.my_contact {
+    width: auto;
+    height: 710px;
+    background: url(../img/fon4.png) no-repeat;
+    color: #ffffff;
+}
+
+.my_contact h2 {
+    color: #ffffff;
+}
+
+.my_contact a {
+    color: #ffffff;
+}
+
+.my_contact div {
+    text-align: center;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+.my_contact .contact {
+    margin-top: 50px;
+}
+
+.presf h3 {
+    margin-top: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.topText {
+    width: 750px;
+    margin: 0 auto;
+}
+.topText input {
+    width: 350px;
+    height: 35px;
+    background-color: #d2d6dc;
+    opacity: 0.9;
+    color: #676769;
+    font-size: 14px;
+    padding-left: 17px;
+}
+
+.topTextInput1 {
+    margin-right: 30px;
+}
+
+.presf textarea {
+    display: block;
+    width: 733px;
+    height: 95px;
+    background-color: #d2d6dc;   
+    opacity: 0.9;
+    color: #676769;
+    font-size: 14px;
+    padding-left: 17px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 17px;
+}
+
+.send {
+    width: 125px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.links {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-right: 35px;
+}
+.links a {
+    margin-left: 45px;
+}
+
+.pref {
+    height: 400px;
+}
+
+.maps {
+    width: auto;
+    height: 350px;
+    background: url(../img/maps.png) no-repeat;
+}
+
+footer {
+    width: auto;
+    height: 95px;
+    background-color: #344051;
+    text-align: center;
+    color: #fff;
+}
+
+footer div {
+    padding-top: 40px;
+}
